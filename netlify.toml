@@ -1,0 +1,8 @@
+Copy
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  DISABLE_ESLINT_PLUGIN = "true"
+  CI = "false"
